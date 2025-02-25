@@ -1,0 +1,5 @@
+(X=ID_Group)+ = {'Number', 'ID_Student', 'ID_Topic', 'ID_Group'}
+
+Key:
+{'ID_Lecturer', 'ID_Student'}
+{'ID_Lecturer', 'ID_Group'}

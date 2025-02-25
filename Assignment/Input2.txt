@@ -1,0 +1,7 @@
+ID_Group->ID_Topic
+ID_Lecturer->Degree
+ID_Student,ID_Lecturer->Manage
+ID_Group->ID_Student
+ID_Student->ID_Topic
+ID_Topic->Number
+X=ID_Group

@@ -1,0 +1,16 @@
+Table:
+Topic(ID_Topic,Name,Number)
+Group(ID_Group,Name,Leader,Member)
+Project(Point)
+Research(Deadline)
+Student(ID_Student,Name,Birthday,Gender,Department)
+Lecturer(ID_Lecturer,Department,Degree,Name)
+Fee(ID_Fee,Money,Status)
+Relation:
+Group 1-1 Topic
+Group d Project
+Group d Research
+Student 1-N Group
+Lecturer N-N Topic (Manage)
+Fee 1-1 Topic
+Student N-N Lecturer (Guide)
